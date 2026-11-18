@@ -18,3 +18,7 @@ The code is version-specific and experimental. It includes ESP-style client over
 - `res/` contains project assets.
 
 The Visual Studio solution and vcpkg manifests are included for Windows development. This repository is a record of reverse-engineering experiments, not a maintained or supported game tool.
+
+## Defensive analysis
+
+See [DEFENSIVE_ANALYSIS.md](DEFENSIVE_ANALYSIS.md) for a discussion of client-side information exposure and defensive design considerations. The note does not evaluate or claim to bypass any specific anti-cheat.
